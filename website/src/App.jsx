@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import './App.css';
 
 const App = () => {
-  const [showPersonal, setShowPersonal] = useState(false);
+  const [showPersonal, setShowPersonal] = useState(true);
   const [showObjective, setShowObjective] = useState(false);
   const [showEducation, setShowEducation] = useState(false);
   const [showExperience, setShowExperience] = useState(false);
